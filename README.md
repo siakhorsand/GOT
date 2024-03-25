@@ -1,2 +1,4 @@
 # GOT
-This C program simulates a "Game of Trust" where two players repeatedly choose between cooperating and cheating in a series of rounds. 
+This C program simulates a "Game of Trust" where two players repeatedly choose between cooperating and cheating in a series of rounds. The game implements various strategies for the computer-controlled player, allowing it to behave according to predefined rules such as always cooperating, mostly cheating, acting randomly (Joker), mimicking the opponent's last move (Copycat), holding a grudge if cheated once (Grudger), or being lenient (Copykitten).
+
+The program starts by seeding the random number generator to ensure varied outcomes in games involving randomness. It prompts the user to select a strategy for the computer and the number of rounds to play. During each round, the player inputs their move (cooperate or cheat), and the program determines the computer's move based on the selected strategy. The outcome of each round is calculated based on the moves, awarding or deducting points to simulate the consequences of trust and deception.
